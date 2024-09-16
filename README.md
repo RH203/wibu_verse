@@ -1,16 +1,10 @@
-# wibu_verse
+# WibuVerse
 
-A new Flutter project.
+Source code repository of WibuVerse, an anime and manga information app built with Flutter, submitted as a final project for the "Belajar Membuat Aplikasi Flutter untuk Pemula" course on IDCamp 2024 - Crossplatform Development Track.**
 
 ## Getting Started
+Coming soon.
 
-This project is a starting point for a Flutter application.
+## Credit UI
+[Link Figma](https://www.figma.com/community/file/1280870307101559025/wibuplex-anime-stream-platform-ui-kit)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
