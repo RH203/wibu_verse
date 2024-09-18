@@ -1,14 +1,20 @@
 import 'package:flutter/material.dart';
 
 class AppButton extends StatelessWidget {
-  const AppButton({super.key});
+  const AppButton({
+    super.key,
+    required this.onTap,
+    required this.title,
+  });
+  final void Function() onTap;
+  final String title;
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       splashFactory: InkSplash.splashFactory,
       splashColor: Colors.lightBlue.withOpacity(0.3),
-      onTap: () {},
+      onTap: onTap,
       child: Container(
         width: double.infinity,
         padding: const EdgeInsets.symmetric(vertical: 15),
@@ -20,8 +26,8 @@ class AppButton extends StatelessWidget {
             colors: [Colors.blue, Colors.lightBlue],
           ),
         ),
-        child: const Text(
-          'Login',
+        child: Text(
+          title,
           style: TextStyle(
             fontSize: 30,
             fontWeight: FontWeight.bold,
