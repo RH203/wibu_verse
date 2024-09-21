@@ -6,8 +6,10 @@ import 'package:wibu_verse/core/router/router.dart';
 final getIt = GetIt.instance;
 
 Future<void> initDependencies() async {
-  final dio = Dio();
-
   getIt.registerSingleton<AppRouter>(AppRouter());
   getIt.registerSingleton<FirebaseAuth>(FirebaseAuth.instance);
+
+  Dio dio = Dio();
+
+  getIt.registerSingleton<Dio>(dio);
 }

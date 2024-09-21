@@ -5,7 +5,7 @@ import 'package:wibu_verse/app_logger.dart';
 import 'package:wibu_verse/core/common/widget/button/app_button.dart';
 import 'package:wibu_verse/core/common/widget/dialogs/dialogs.dart';
 import 'package:wibu_verse/core/common/widget/text_field/app_text_field.dart';
-import 'package:wibu_verse/core/injection/injection.dart';
+import 'package:wibu_verse/core/di/injection.dart';
 import 'package:wibu_verse/core/utils/helper_validator/helper_validator.dart';
 import 'package:go_router/go_router.dart';
 import 'package:wibu_verse/src/auth/controller/auth_controller.dart';
@@ -83,7 +83,7 @@ class _SigninScreenState extends State<SigninScreen> {
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         leading: IconButton(
-          onPressed: () {},
+          onPressed: () => context.go('/onboard-screen'),
           icon: const Icon(Icons.arrow_back_ios),
         ),
       ),

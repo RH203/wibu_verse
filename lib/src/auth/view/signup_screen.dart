@@ -88,7 +88,7 @@ class _SignupScreenState extends State<SignupScreen> {
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         leading: IconButton(
-          onPressed: () {},
+          onPressed: () => context.go("/onboard-screen"),
           icon: const Icon(Icons.arrow_back_ios),
         ),
       ),

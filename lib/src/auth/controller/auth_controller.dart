@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:wibu_verse/app_logger.dart';
-import 'package:wibu_verse/core/injection/injection.dart';
+import 'package:wibu_verse/core/di/injection.dart';
 
 class AuthController {
   AuthController();
