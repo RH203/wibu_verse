@@ -1,7 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:wibu_verse/src/auth/view/signin_screen.dart';
 import 'package:wibu_verse/src/auth/view/signup_screen.dart';
-import 'package:wibu_verse/src/home/view/Homescreen.dart';
+import 'package:wibu_verse/src/home/view/homescreen.dart';
 import 'package:wibu_verse/src/onboard/view/initial_screen.dart';
 import 'package:wibu_verse/src/onboard/view/onboard.dart';
 
