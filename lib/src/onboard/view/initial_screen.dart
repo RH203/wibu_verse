@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:wibu_verse/app_logger.dart';
-import 'package:wibu_verse/core/injection/injection.dart';
+import 'package:wibu_verse/core/di/injection.dart';
 import 'package:go_router/go_router.dart';
 
 class InitialScreen extends StatelessWidget {
